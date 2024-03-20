@@ -1,0 +1,50 @@
+/* dark-light-navbar */
+body:has(.dark-light:checked){
+        --main-color-bg: #252525 !important;
+        --second-color-bg: #161616 !important;
+        --main-color: #ffffff !important;
+        --second-color: #c17e1f !important;
+        --third-color: #7e7e83 !important;
+        --hover-button-color: #D78C23 !important;
+        --home-h2-color:#f8f8ff !important;
+        --black-color:#ffffff  !important;
+        --pargraph-color:#a5a5a5 !important;
+        --backcolor-icons:#dbd1d1b3 !important;
+        --color-icons: #d4cbcb !important;
+        --color-contact:#171717 !important;
+        --h3-contact:#a2a1a1 !important;
+        --color-foo:#a9a8a8 !important;
+        --color-foot-li:#b4aeae !important;
+        --font-size-a-p-button: 1rem !important;       
+        .home-sec .navbar-bg , .navbar{
+            background-color: #171717 !important;
+        }
+        .home-sec .navbar-bg .navbar .light-dark .fasun{
+            display: block;
+            color: var(--black-color);
+            cursor: pointer;
+        }
+        .home-sec .navbar-bg .navbar .light-dark .famon{
+            display: none;
+        }
+        .Chefs-sec picture::before {
+            background-image: url(../imag/team-shape-dark.svg);
+        }
+        .contact-sec .form-contact {
+            box-shadow: 3px 3px 25px #4a4a4a;
+          }
+          .footer-sec {
+            color: var(--grid-main-color);
+            background-image: url(../imag/textured-metal-background.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-top: 1rem;
+          }.footer-sec {
+            background-image: url(../imag/textured-metal-background.jpg);
+            background-position:center;
+            background-size:contain;
+          }
+          .footer-sec .footer-content .footer-Subscribe .Quick .list-quick ul li:hover {
+            color: var(--color-contact);
+          }
+}
